@@ -16,6 +16,7 @@ class GUI():
 
 		self.root=root
 		self.root.title("TASK APP")
+		self.root.resizable(0,0)
 		# self.root.geometry("400x400")
 		self.root.config(bg="#CFE0F4")		
 
